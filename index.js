@@ -22,5 +22,5 @@ app.use("/v1/auth", authRoute);
 app.use("/v1/user", userRoute);
 
 app.listen(9000, () => {
-    console.log("Server is running on port 9000");
+    console.log("app is running on port 9000");
 })
